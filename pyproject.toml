@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-chat-clipper"
+version = "0.1.0"
+description = "Captura e edição local de vídeos dirigidas pelo chat do Codex"
+requires-python = ">=3.11"
+dependencies = ["streamlink>=7,<9", "yt-dlp>=2026.1", "faster-whisper>=1.1,<2", "av==16.1.0"]
+
+[project.scripts]
+chat-clipper = "chat_clipper.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["chat_clipper*"]

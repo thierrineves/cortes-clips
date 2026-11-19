@@ -1,0 +1,43 @@
+{
+  "id": "gamer-stack-v1",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "background": "#1f1f1f"
+  },
+  "panel": {
+    "x": 40,
+    "y": 32,
+    "width": 640,
+    "height": 1212,
+    "radius": 52,
+    "background": "#383838"
+  },
+  "camera": {
+    "x": 40,
+    "y": 32,
+    "width": 640,
+    "height": 420
+  },
+  "gameplay": {
+    "x": 40,
+    "y": 452,
+    "width": 640,
+    "height": 792
+  },
+  "title": {
+    "x": 144,
+    "y": 389,
+    "width": 424,
+    "height": 110,
+    "background": "#252525"
+  },
+  "captions": {
+    "x": 180,
+    "y": 928,
+    "width": 360,
+    "height": 72
+  },
+  "default_gameplay_fit": "cover",
+  "gameplay_anchor": "center"
+}
